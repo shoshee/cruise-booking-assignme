@@ -97,13 +97,17 @@ nav ul li a:hover, a.active{
 .inp-width{
     min-width: 300px;
 }
-.plus-minus-btn{
-    display: block;
+.plus-minus-btn button{
+    /* display: block; */
     color: #3352F2;
     font-size: 30px;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    /* display: flex; */
     margin: 10px 5px 0px 0px;
-    word-spacing: 20px;
+     word-spacing: 20px;
+ 
 }
 .booking-form .inputs{
     display: grid;
@@ -123,4 +127,19 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+#confirm-message{
+    display: none;
+    color: yellow;
+   
+    width: 100%;
+    float: left;
+    margin-left: 50px;
+}
+
+#confirm-message h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
 }
